@@ -1,0 +1,36 @@
+.friend__title {
+  color: rgb(255, 233, 38);
+
+  border-top: 1px solid rgb(255, 233, 38);
+  padding: 10px;
+  font-size: 12px;
+  opacity: 80%;
+}
+
+.friend__column img {
+  width: 50px;
+  background-color: rgb(255, 233, 38);
+}
+
+.friend__name {
+  font-size: 17px;
+  margin-top: 8px;
+}
+
+.friend__right i {
+  margin-top: 8px;
+  color: rgb(255, 233, 38);
+}
+
+.friend__music {
+  margin-top: 12px;
+  color: rgb(255, 233, 38);
+}
+
+.friend__music .music {
+  font-size: 10px;
+  padding: 2px 10px;
+  margin-top: 12px;
+  border: 1px solid;
+  border-radius: 10px;
+}

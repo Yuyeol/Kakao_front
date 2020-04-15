@@ -1,0 +1,17 @@
+.find-bar {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.find-bar div {
+  text-align: center;
+  font-size: 10px;
+}
+.find-bar i {
+  font-size: 25px;
+}
+
+.find-bar__icon {
+    width: 50px;
+}

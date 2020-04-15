@@ -1,0 +1,29 @@
+.avatar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .avatar .avatar__column {
+    display: flex;
+  }
+  
+  .avatar img {
+    border-radius: 25%;
+    width: 70px;
+  }
+  
+  .avatar .avatar__content {
+    margin-left: 10px;
+  }
+  
+  .avatar .avatar__name {
+    font-size: 20px;
+    margin: 10px 0px;
+  }
+  
+  .avatar .avatar__message {
+    opacity: 80%;
+    font-size: 15px;
+    margin-top: 5px;
+  }

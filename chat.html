@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/36bc4c83be.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Chat</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <span class="status-bar__time">15:34</span>
+      <div class="status-bar__status">
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <header class="header">
+      <a href="index.html">
+        <i class="fas fa-chevron-left"></i>
+      </a>
+      <span class="header__title">Jason</span>
+      <div class="header__about">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+    <ul class="chats">
+      <li class="chats__chat chat">
+        <div class="chat__column">
+          <img src="images/1.jpg" />
+          <div class="chat__content">
+            <div class="chat__name">Jason</div>
+            <div class="chat__message">
+              <span class="chat__message-box">hello!</span>
+              <div class="chat__time">01:02</div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="chats__chat chat my">
+        <div class="chat__column my__column">
+          <div class="chat__content">
+            <div class="chat__message">
+              <div class="chat__time">01:02</div>
+              <span class="chat__message-box my__message-box">hi!</span>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="chats__chat chat">
+        <div class="chat__column">
+          <img src="images/1.jpg" />
+          <div class="chat__content">
+            <div class="chat__name">Jason</div>
+            <div class="chat__message">
+              <span class="chat__message-box">bye~</span>
+              <div class="chat__time">01:40</div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div class="chat__write">
+        <i class="far fa-plus-square"></i>
+        <input type="text" class="chat__input" />
+        <i class="far fa-caret-square-right"></i>
+    </div>
+  </body>
+</html>

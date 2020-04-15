@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap");
+@import "reset.css";
+@import "status-bar.css";
+@import "main.css";
+@import "header.css";
+@import "nav.css";
+@import "avatar.css";
+@import "friend.css";
+@import "find.css";
+@import "more.css";
+@import "chat.css";
+
+body {
+  font-family: "Noto Sans";
+  width: 360px;
+  height: 640px;
+  margin: 0px 10px;
+  color: cornsilk;
+  background-color: black;
+}
+

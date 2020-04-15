@@ -1,0 +1,23 @@
+.nav {
+  position: fixed;
+  width: 360px;
+  bottom: 20px;
+  border-top: 1px solid rgb(255, 233, 38);
+  padding-top: 15px;
+}
+
+.nav__elements {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 30px;
+  font-size: 24px;
+}
+
+.elment a :link {
+  color: rgb(255, 233, 38);
+  text-decoration: none;
+}
+.element a:visited {
+  color: rgb(255, 233, 38);
+  text-decoration: none;
+}

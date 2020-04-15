@@ -1,0 +1,28 @@
+.chat__time {
+  margin: 10px 0px;
+}
+
+.chat__badge {
+  background-color: rgb(250, 66, 33);
+  color: white;
+  width: 18px;
+  height: 18px;
+  margin-left: 18px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.nav__elements {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 30px;
+}
+
+.avatars a :link {
+  color: cornsilk;
+  text-decoration: none;
+}
+.avatars a:visited {
+  color: cornsilk;
+  text-decoration: none;
+}

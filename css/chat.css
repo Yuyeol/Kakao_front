@@ -1,0 +1,61 @@
+.chat__column {
+  display: flex;
+}
+
+.chat__column img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  margin-right: 10px;
+}
+
+.chat__message {
+  display: flex;
+  align-items: center;
+}
+
+.chat__message-box {
+  border: 1px solid;
+  padding: 5px 10px;
+  margin: 10px 5px;
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+}
+
+.my__message-box {
+  border-radius: 20px;
+  border-top-right-radius: 0px;
+}
+
+.chat__time {
+  font-size: 12px;
+}
+
+.my__column {
+  justify-content: flex-end;
+}
+
+.chat__write {
+  position: fixed;
+  display: flex;
+  bottom: 0px;
+}
+
+.chat__write i {
+  font-size: 26px;
+}
+
+.chat__input {
+  width: 300px;
+  height: 20px;
+  border: none;
+}
+
+.header a :link {
+  color: cornsilk;
+  text-decoration: none;
+}
+.header a:visited {
+  color: cornsilk;
+  text-decoration: none;
+}
